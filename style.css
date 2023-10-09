@@ -1,0 +1,247 @@
+/**{
+    overflow: auto;
+}*/
+
+body {
+    background-color: #00032A;
+    color: rgb(60, 18, 212);
+    text-transform: uppercase;
+}
+
+/*.corps {
+    width: 100%;
+}*/
+
+.barre_verticale {
+    width: 300px;
+    height: 750px;
+    background-color: aliceblue;
+}
+
+.logos {
+    width: 70px;
+}
+
+.logo {
+    width: 60px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 2px #00032A;
+    border-style: outset;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+div.couleur {
+    height: 60px;
+    width: 60px;
+    background-color: #00032A;
+    float: right;
+    margin-left: 5px;
+    transform: rotate(45deg);
+    word-wrap: break-word;
+}
+
+.py {
+    color: #772a2a;
+    text-shadow: 3px 2px 1px 1px #bf0f0f;
+}
+
+.pres {
+    margin-top: -75px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.contact {
+    height: 450px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.facebook {
+    width: 100px;
+    margin-left: 16px;
+}
+
+.face {
+    position: relative;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.rouge {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: #bfced29e;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 2px #a9c1bd9e;
+    transform: rotate(-45deg);
+}
+
+/*p {
+    height: 20px;
+    width: 100px;
+    background-color: #49da19;
+    
+}*/
+
+.barre_verticale_droit {
+    position: absolute;
+    float: right;
+    width: 950px;
+    margin-top: -750px;
+    margin-left: 380px;
+}
+
+ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /*text-decoration: none;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a :hover {
+    text-decoration: solid;
+    color: #7a7da8;
+    border-bottom: 1px solid rgb(130, 86, 86);
+}
+
+.logo_grand {
+    width: 300px;
+    height: 700px;
+    border: 1px solid red;
+    border-radius: 20px;
+    float: right;
+}
+
+.femme {
+    width: 300px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+.barre_rectangle {
+    width: 600px;
+    height: 30px;
+    margin-left: -70px;
+    margin-top: 70px;
+    background-color: aliceblue;
+}
+
+.projects1 {
+    width: 600px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.projects {
+    width: 600px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image1 {
+    width: 200px;
+    margin-top: 15px;
+}
+
+.nom_project {
+    background-color: #112b9d50;
+    border-radius: 20px;
+}
+
+.barre_rectangle2 {
+    width: 400px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 70px;
+    background-color: #f0f8ff;
+    box-shadow: 1px 1px 0 1px #f0f8ff;
+}
+
+.rouge1 {
+    background-color: #ff0000;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: -35px;
+}
+
+.langue {
+    width: 600px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+    border: 1px solid rgb(11, 36, 4);
+    background-color: #070e8950;
+    box-shadow: 4px 4px 4px 4px #07079bca;
+}
+
+.langue1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    /*background-color: #bfced29e;*/
+    /*box-shadow: 1px 1px 1px 2px #a9c1bd9e;*/
+    /*transform: rotate(-45deg);*/
+}
+
+.image_langue {
+    width: 40px;
+    border-radius: 30px;
+}
+
+#contacter_moi {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1), 0 0 30px;
+    overflow: visible;
+}
+
+/* Styles pour ordinateur */
+/*@media only screen and (min-width: 768px) {
+    body {
+        margin: 60px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 645px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    body {
+        display: block;
+    }
+}*/

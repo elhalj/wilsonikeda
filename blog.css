@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: url(arriere_plan.png) no-repeat center/100% 100%;
+    position: relative;
+}
+
+ul {
+    background-color: #188d9a93;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /*text-decoration: none;*/
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(11, 95, 108);
+    border-radius: 30px;
+    box-shadow: 1px 2px 2px 4px #137582d3;
+}
+
+a {
+    color: #5eafda;
+    text-decoration: none;
+}
+
+ul
+li
+a::after {
+    background-color: #772a2a;
+}
+
+/*section {
+    position: relative;
+}*/
+
+.infos {
+    /*background-color: #29665e;*/
+    height: 300px;
+    width: 900px;
+    margin-top: 30px;
+    margin-left: 150px;
+    /*margin-left: 270px;*/
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 4px 3px 4px 8px #013e43;
+}
+
+.infos_defilante {
+    /*background-color: #108779;*/
+    height: 230px;
+    width: 700px;
+    margin-top: 25px;
+    margin-left: 88px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.defilant {
+    /*background-color: #0d3e36;*/
+    height: 230px;
+    width: 700px;
+    margin-top: 25px;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.defilante {
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 4px 2px 4px 2px #1c258b;
+}
+
+.corps {
+    background: linear-gradient(rgba(56, 168, 95, 0.2), rgba(136, 52, 55, 0.2)) #387098;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    box-shadow: 4px 3px 4px 8px #013e43;
+}
+
+article {
+    background-color: #02271eba;
+}
+
+aside {
+    /*background-color: aqua;*/
+    width: 300px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.facebook {
+    width: 100px;
+    margin-left: 16px;
+}
+
+.face {
+    position: relative;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.rouge {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: #bfced29e;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 2px #a9c1bd9e;
+    transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        /*background-color: #188d9a93;*/
+        list-style-type: none;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        /*text-decoration: none;*/
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        border: 1px solid rgb(11, 95, 108);
+        border-radius: 30px;
+        box-shadow: 1px 2px 2px 4px #137582d3;
+    }
+
+    .infos {
+        /*background-color: #29665e;*/
+        height: 100px;
+        width: 400px;
+        margin-top: 30px;
+        margin-left: 100px;
+        /*margin-left: 270px;*/
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid white;
+        border-radius: 30px;
+        box-shadow: 4px 3px 4px 8px #013e43;
+    }
+
+    .infos_defilante {
+        /*background-color: #108779;*/
+        height: 90px;
+        width: 300px;
+        margin-top: 1px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .defilant {
+        /*background-color: #0d3e36;*/
+        height: 90px;
+        width: 90px;
+        margin-top: 3px;
+        overflow: hidden;
+        box-sizing: border-box;
+        
+    }
+    
+    .defilante {
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 30px;
+        box-shadow: 4px 2px 4px 2px #151c69;
+    }
+}
